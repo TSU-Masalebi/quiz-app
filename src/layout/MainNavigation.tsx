@@ -18,7 +18,7 @@ function MainNavigation() {
             <a href={TSUMasaslebiLink}> Home </a>
           </li>
           <li>
-            <Link to="/"> Quizes </Link>
+            <Link to="/quiz-app/"> Quizes </Link>
           </li>
           <li>
             <a

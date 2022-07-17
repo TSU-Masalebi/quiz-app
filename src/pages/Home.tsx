@@ -17,7 +17,6 @@ export type UserSubjObject = {
 export let TEST_FILE: string;
 export let SubjectName: string;
 
-
 function Home() {
   const [loading, setLoading] = useState(false);
   const [subjects, setSubjects] = useState<SubjectType[]>([]);
@@ -52,7 +51,7 @@ function Home() {
     // setUserSubject()
     TEST_FILE = subjectFile;
     SubjectName = subjectName;
-    navigate(`/quizes`);
+    navigate(`/quiz-app/quizes/`);
     return;
   }
 

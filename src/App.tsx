@@ -11,8 +11,8 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/quizes" element={<Quiz />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/quiz-app/quizes" element={<Quiz />} />
+        <Route path="/quiz-app" element={<Home />} />
         {/* <Route path="/quizes" element={<Quiz />} /> */}
       </Routes>
     </Layout>

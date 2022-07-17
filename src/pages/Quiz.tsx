@@ -91,7 +91,7 @@ function Quiz() {
     setQuiResult(true);
   };
   const returnClinckHandler = () => {
-    navigate("/");
+    navigate("/quiz-app/");
   };
 
   return (
