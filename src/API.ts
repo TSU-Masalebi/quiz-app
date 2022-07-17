@@ -50,7 +50,7 @@ export const fetchQuizQuestions = async (amount: number) => {
 
 export const fetchQuizQuestions = async () => {
   try {
-    const endpoint = `./data/${TEST_FILE}`;
+    const endpoint = `../data/${TEST_FILE}`;
     const data = await (await fetch(endpoint)).json();
     // console.log(data);
     const newData = data.results.map((question: Question) => ({

@@ -67,7 +67,8 @@ font-family: 'Playfair Display', serif;
 
 .subject_btn {
   width: 12rem;
-  margin: 1.5rem;
+  margin: 1.5rem;  
+  color: black;
   background-color: #4cbe9a;
   padding: 0.3rem;
   font-family: "Merriweather", serif;
@@ -80,6 +81,7 @@ font-family: 'Playfair Display', serif;
   box-shadow: 5px 5px 5px #40685b;
 }
 .subject_btn small {
+  color: black;
   background-color: inherit;
   font-size: 0.9rem;
 }
