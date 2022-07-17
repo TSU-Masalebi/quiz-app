@@ -1,16 +1,32 @@
 .container {
-    position: relative;
-  }
+  position: relative;
+}
+.main {
+  position: relative;
+  margin: 0rem auto;
+  min-height: 85vh;
+}
+.footer {
+  position: relative;
+  margin: 0rem auto;
+  min-height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #0401b2;
+  padding: 6px 15px;
+}
+.copyright,
+.author {
+  background-color: #0401b2;
+  color: white;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 480px) {
   .main {
-    position: relative;
-    margin: 0rem auto;
-    min-height: 100vh;
+    padding-top: 5rem;
   }
-  /* Media query */
-  
-  @media only screen and (max-width: 480px) {
-    .main {
-      padding-top: 5rem;
-    }
-  }
-  
+}

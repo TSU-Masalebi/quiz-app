@@ -11,6 +11,10 @@ const Layout: React.FC<Props> = ({ children }) => {
     <div className={classes.container}>
       <MainNavigation />
       <main className={classes.main}>{children}</main>
+      <footer className={classes.footer}>
+        <h4 className={classes.copyright}>© TSU მასალები - 2022</h4>
+        <h4 className={classes.author}>Created by: Anar Mamedovi</h4>
+      </footer>
     </div>
   );
 };
