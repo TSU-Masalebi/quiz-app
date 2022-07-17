@@ -4,14 +4,11 @@
 font-family: 'Playfair Display', serif;
 } */
 
-html {
-  font-size: 16px;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(250, 241, 230);
+  background-color: antiquewhite;
 }
 
 .App {
@@ -30,7 +27,7 @@ html {
   margin: 1rem;
 }
 
-.start {
+/* .start {
   width: 15rem;
   margin: 2rem;
   background-color: #4cbe9a;
@@ -43,11 +40,11 @@ html {
   border: none;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #40685b;
-}
+} */
 
 .subject-card__container {
   margin: 2.5rem auto;
-  width: 80vw;
+  width: 55vw;
   min-height: 20rem;
   border: 1px solid rgb(220, 195, 148);
   border-radius: 5px;
@@ -62,8 +59,13 @@ html {
   font-size: 1.3rem;
   background-color: wheat;
 }
+.subject-btn__container {
+  background-color: wheat;
+  margin: 0 2rem 2rem;
+  border-radius: 10px;
+}
 
-.next {
+.subject_btn {
   width: 12rem;
   margin: 1.5rem;
   background-color: #4cbe9a;
@@ -74,11 +76,15 @@ html {
   font-style: italic;
   text-shadow: 2px 1px 5px #88ffd9;
   border: none;
-  border-radius: 20px;
+  border-radius: 13px 3px;
   box-shadow: 5px 5px 5px #40685b;
 }
+.subject_btn small {
+  background-color: inherit;
+  font-size: 0.9rem;
+}
 
-.quiz-result {
+/* .quiz-result {
   margin: 2rem;
   padding: 1.5rem;
   font-family: "Merriweather";
@@ -87,7 +93,7 @@ html {
   background-color: #3d3d3d;
   color: #fff;
   border-radius: 9px;
-}
+} */
 
 /*Spinner*/
 .spinner__container {
@@ -111,19 +117,8 @@ html {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  html {
-    font-size: 15px;
-  }
-}
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 14px;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  html {
-    font-size: 12px;
+@media (max-width: 768px) {
+  .subject-card__container {
+    width: 80vw;
   }
 }
