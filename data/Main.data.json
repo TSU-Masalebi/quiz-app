@@ -1,0 +1,20 @@
+{
+  "response_code": 0,
+  "subjects": [
+    {
+      "subject_name": "მარკეტინგი 1",
+      "sub_name": "ფინალური",
+      "file_name": "Marketingi1.tests.json"
+    },
+    {
+      "subject_name": "ბიზნესის სამართალი",
+      "sub_name": "ფინალური",
+      "file_name": "BiznesSamartali.tests.json"
+    },
+    {
+      "subject_name": "ადამიანური რესურსების მართვა",
+      "sub_name": "ფინალური",
+      "file_name": "Hr.tests.json"
+    }
+  ]
+}
