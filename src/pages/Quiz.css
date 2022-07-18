@@ -42,16 +42,16 @@ font-family: 'Playfair Display', serif;
   width: 15rem;
   margin: 2rem;
   color: black;
-  background-color: #f83b6e;
+  background-color: #fa4d7b;
   padding: 0.5rem;
   font-family: "Merriweather", serif;
   font-size: 1.2rem;
   font-weight: 900;
   font-style: italic;
-  text-shadow: 2px 1px 5px #f21d56;
+  text-shadow: 1px 1px 3px #f21d56;
   border: none;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #bc0133;
+  box-shadow: 4px 5px 5px #ab0632;
 }
 .question-number__container {
   margin-top: 2rem;

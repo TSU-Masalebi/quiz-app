@@ -56,9 +56,9 @@ font-family: 'Playfair Display', serif;
   padding: 1rem;
   font-size: 1rem;
   color: black;
-  background-color: #f4c515;
+  background-color: #edcf61;
   border-radius: 5px;
-  box-shadow: 0.5px 2px 5px #cda100;
+  box-shadow: 0.5px 2px 5px #bf9c1b;
   user-select: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -67,13 +67,13 @@ font-family: 'Playfair Display', serif;
 }
 
 .true-answer span {
-  background-color: #4ebf96;
+  background-color: #369975;
   color: white;
-  box-shadow: 0.5px 1px 5px #199265;
+  box-shadow: 0.5px 1px 5px #165a41;
 }
 
 .false-answer span {
-  background-color: #f21d56;
+  background-color: #d1194a;
   color: white;
-  box-shadow: 0.5px 1px 5px #bc0133;
+  box-shadow: 0.5px 1px 5px #70152e;
 }
